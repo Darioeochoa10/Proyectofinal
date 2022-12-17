@@ -1,6 +1,7 @@
 /* main section */
 .presentation {
   font-size: 1.4rem;
+
   background-image: url("../img/mainimgopt2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,7 +9,6 @@
   display: flex;
   padding-bottom: 150px;
 }
-
 .main_content {
   display: flex;
   flex-direction: column;
@@ -20,7 +20,6 @@
   gap: 4rem;
   width: 100%;
 }
-
 .main_title {
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
@@ -34,18 +33,16 @@
 }
 
 /* footer */
+
 footer {
   background-color: rgb(11, 14, 108);
 }
-
 .footer-section {
   min-height: 200px;
 }
-
 .footer-icono {
   margin: 10px;
 }
-
 .footer-texto {
   color: white;
   font-size: 1.5rem;
@@ -53,7 +50,6 @@ footer {
   margin-bottom: 5px;
   font-family: "Quicksand", sans-serif;
 }
-
 .social_media_icon a {
   color: white;
   width: 40px;
@@ -67,78 +63,3 @@ footer {
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
-
-/* navbar */
-.img {
-  max-width: 100%;
-}
-
-.navbar {
-  padding: 2rem;
-  background-color: aqua;
-}
-
-.navbar-collapse {
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav.link {
-  font-weight: bolder;
-}
-
-@media screen and (max-width: 767px) {
-  .navbar-brand {
-    display: none;
-  }
-}
-/* our services */
-.section_title {
-  display: flex;
-  justify-content: center;
-  background-color: #002c61;
-  color: aliceblue;
-  padding-bottom: 100px;
-  padding-top: 100px;
-}
-
-.section_services {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 100px;
-  padding-top: 50px;
-  background-color: rgb(255, 248, 239);
-}
-
-.service_card_1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.service_card_2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  box-shadow: #002c61;
-}
-
-.service_text_1 {
-  font-size: 1.2rem;
-  padding: 10px;
-}
-
-.service_text_2 {
-  font-size: 1.2rem;
-  padding: 10px;
-}
-
-.service_subtitle {
-  padding: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */

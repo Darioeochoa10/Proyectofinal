@@ -1,0 +1,43 @@
+/* our services */
+.section_title {
+  display: flex;
+  justify-content: center;
+  background-color: #002c61;
+
+  color: aliceblue;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.section_services {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  background-color: rgb(255, 248, 239);
+}
+.service_card_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.service_card_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: #002c61;
+}
+.service_text_1 {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.service_text_2 {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.service_subtitle {
+  padding: 20px;
+}

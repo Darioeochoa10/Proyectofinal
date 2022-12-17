@@ -1,0 +1,21 @@
+/* navbar */
+.img {
+  max-width: 100%;
+}
+.navbar {
+  padding: 2rem;
+  background-color: aqua;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+.nav.link {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
