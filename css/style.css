@@ -181,7 +181,7 @@ footer {
     transform: scale(1);
   }
 }
-h2 {
+.quote-pricing {
   animation: zoom-in 2s ease-in;
 }
 
