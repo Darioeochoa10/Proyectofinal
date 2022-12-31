@@ -78,3 +78,9 @@ footer {
 }
 
 /* mediaquerys */
+
+@media (max-width: 480px) {
+  .footer-texto {
+    font-size: 1.3rem;
+  }
+}
